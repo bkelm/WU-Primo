@@ -184,6 +184,12 @@ prm-search-result-list .results-title {
 
 /* WU Customizations */
 
+}
+/* Hide the tags option */
+#tags {display:none;} 
+button[aria-label="Tags"]{display:none;}
+
+
 .full-view-inner-container {
     background: transparent;
 }
@@ -211,5 +217,5 @@ prm-search-result-list .results-title {
 /* Fix sizing of resource icons in IE */
 div.result-item-image > div.media-content-images {
     max-height: 60px;
-}
+
 
